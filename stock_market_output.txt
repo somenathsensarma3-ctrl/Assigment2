@@ -1,0 +1,49 @@
+Welcome to Mini Stock Market!
+Available Stocks:
+  Ticker    Company  Price
+0    ABC  Alpha Inc    150
+1    XYZ  Xyza Corp    120
+2    MNO  Mono Labs     80
+3    HDP  HeadPro       50 
+
+How many stocks do you want to view? <3>
+
+Here are the first 3 stocks:
+  Ticker    Company  Price
+0    ABC  Alpha Inc    150
+1    XYZ  Xyza Corp    120
+2    MNO  Mono Labs     80 
+
+Do you want to BUY or SELL a stock? (type 'exit' to quit): <BUY>
+Enter Ticker: <ABC>
+Enter Quantity: <10>
+BUY order recorded: 10 shares of ABC at 150
+
+Do you want to BUY or SELL a stock? (type 'exit' to quit): <SELL>
+Enter Ticker: <ABC>
+Enter Quantity: <5>
+SELL order recorded: 5 shares of ABC at 150
+
+Do you want to BUY or SELL a stock? (type 'exit' to quit): <BUY>
+Enter Ticker: <XYZ>
+Enter Quantity: <8>
+BUY order recorded: 8 shares of XYZ at 120
+
+Do you want to BUY or SELL a stock? (type 'exit' to quit): <exit>
+
+All Trades:
+  Ticker Action  Quantity  Price
+0    ABC    BUY        10    150
+1    ABC   SELL         5    150
+2    XYZ    BUY         8    120
+
+Trades with Profit/Loss:
+  Ticker Action  Quantity  Price  Profit/Loss
+0    ABC    BUY        10    150           0
+1    ABC   SELL         5    150           0
+2    XYZ    BUY         8    120           0
+
+Summary by Stock:
+  Ticker  Quantity  Profit/Loss
+0    ABC        15            0
+1    XYZ         8            0
